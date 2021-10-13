@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+
+book:
+  name: 四大名著
+  author: 曹雪芹/罗贯中
+  price: 30

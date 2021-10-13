@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  error:
+    path: /error
+  servlet:
+    session:
+      timeout: 1
+    context-path: /chapter02
+  tomcat:
+    uri-encoding: utf-8
+    max-threads: 500
+    basedir: G:/workspace/path
+
+book:
+  name: 红楼梦
+  author: 曹雪芹
+  price: 30

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Aspect
 public class LogAspect {
-    @Pointcut("execution(* org.sang.aop.service.*.*(..))")
+    @Pointcut("execution(* org.sang.*.*(..))")
     public void pc1() {
     }
     @Before(value = "pc1()")

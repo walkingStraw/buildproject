@@ -5,7 +5,7 @@ server:
   servlet:
     session:
       timeout: 1
-    context-path: /chapter02
+#    context-path: /chapter02
   tomcat:
     uri-encoding: utf-8
     max-threads: 500
@@ -15,3 +15,15 @@ book:
   name: 红楼梦
   author: 曹雪芹
   price: 30
+
+filepath: G:/workspace/path/file
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 0
+      location: G:\\temp
+      max-file-size: 1MB
+      max-request-size: 100MB
+      resolve-lazily: false

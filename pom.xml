@@ -51,6 +51,14 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+<!--                不用parent，必须添加下面的信息，不然会报没有主清单属性-->
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
 <!--            弃用parent后，需手动配置jdk等-->
             <plugin>

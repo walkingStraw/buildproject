@@ -9,7 +9,7 @@ public class BookController {
     @Autowired
     private Book book;
     @GetMapping("/book")
-    public String book(){
-        return book.getName();
+    public Book book(){
+        return book;
     }
 }

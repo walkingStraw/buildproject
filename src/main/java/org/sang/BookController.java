@@ -10,6 +10,7 @@ public class BookController {
     private Book book;
     @GetMapping("/book")
     public Book book(){
+        int i = 1 / 0;
         return book;
     }
 }
